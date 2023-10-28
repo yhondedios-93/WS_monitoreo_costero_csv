@@ -9,8 +9,6 @@
 
 # Packages #
 ############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
 *.7z
 *.dmg
 *.gz
@@ -35,3 +33,52 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+Icon?
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msm
+*.msi
+
+# Folder config file
+Desktop.ini
+
+# Windows image file caches
+Icon?
+ehthumbs.db
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+jspm_packages/
+node_modules/
+bower_components/
+
+# Python virtual environments
+venv/
+ENV/
+
+# IDEs and editors #
+#####################
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.sublime-workspace
+*.swp
+
+# ESLint
+.eslintcache
+
+# TSLint
+.tslint.json
+
+# Prettier
+.prettierrc
